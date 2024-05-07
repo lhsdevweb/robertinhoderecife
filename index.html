@@ -23,8 +23,8 @@
                 background-color: black; color: white;}
         
         @media (max-width: 600px) 
-        {
-            p {max-width: 400px; margin: auto; padding: 10px 0 10px 0;}        
+        {   
+            p {max-width: 400px;}        
             .Mozart, .mm2 {max-width: 60%;}
             .flyer, .zeramalho {max-width: 70%;} 
             .LPdebut, .gal, .banda, .chacrinha, .monster, .musicbox  {max-width: 80%;} 
@@ -32,11 +32,25 @@
             .legenda {margin: 0 auto 20px auto; padding: 0;}
             .divlink1 {margin-top: 20px;}
         }
+
+        @media (max-width: 450px) 
+        {
+            .div1, .div2 {padding: 10px;}
+            .rob {max-width: 90%;}
+            h1 {font-size: 1.5em;}
+            p {max-width: 350px;}
+        }
+
+        /*
+        .div1 {background-color: blue;}
+        .div1 {background-color: greenyellow;}
+        .div1 {background-color: lightsalmon;}
+        */
     </style>
 </head>
 <body>
     <div class="div1">
-        <img src="img/01-rob.jpg" alt="">
+        <img class="rob" src="img/01-rob.jpg" alt="">
         <h1>Robertinho de Recife</h1>
         <p>
             Carlos Roberto Cavalcanti de Albuquerque, mais conhecido artísticamente como Robertinho de Recife,  se tornou um dos maiores guitarristas do país e do mundo; além de compositor, produtor musical e arranjador musical brasileiro. Sua trajetória no universo da música popular consagra-o como profissional de múltiplos talentos e iniciativas.
@@ -57,7 +71,7 @@
             <a class="link1" href="galeria.html">Galeria de Imagens</a>
         </div>
     </div>
-    <div>
+    <div class="div2">
         <h2>Destaques da carreira musical</h2>
         <img src="img/04-rob.jpg" alt="">
         <p>
